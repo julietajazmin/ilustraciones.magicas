@@ -6,7 +6,7 @@ html, body { height: 100%; width: 100%;}
 
 body { color: #444246;
 background:  linear-gradient(to bottom, #dd879f 0%,#4e337e 100%);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   padding: 10% 0 0 40%;
 }
@@ -136,7 +136,7 @@ ul li ul {
   background: #333;
   display: block;
   width: 100%;
-  position: relative;
+  position:-webkit-sticky;
   
   &:before{
     background: linear-gradient(to right, #709AD1 0%, #3ed8b5 100%); 
